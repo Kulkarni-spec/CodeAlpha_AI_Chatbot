@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["price", "cost", "pricing", "plans"],
+      "responses": ["Our pricing starts at $10/month. Would you like more details?"]
+    },
+    {
+      "tag": "services",
+      "patterns": ["services", "what do you offer", "solutions"],
+      "responses": ["We offer AI chatbot solutions, automation and cloud services."]
+    },
+    {
+      "tag": "support",
+      "patterns": ["help", "support", "issue", "problem"],
+      "responses": ["Our support team is available 24/7. How can I assist you?"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "email", "reach you"],
+      "responses": ["You can contact us at support@company.com"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["working hours", "timing", "when are you open"],
+      "responses": ["We are available 24/7 for our customers."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye"],
+      "responses": ["Goodbye! Have a great day!" , "See you soon!"]
+    }
+  ]
+}
